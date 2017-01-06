@@ -1,7 +1,7 @@
 angular.module("crtl",["sevices"])
-    .controller("index",["$scope","$http","indexData",function ($scope,$http,indexDate) {
+    .controller("index",["$scope","$http","indexDate",function ($scope,$http,indexDate) {
         indexDate.then(function (data) {
-            console.log(data.data)
+            console.log(data.data);
             $scope.data=data.data
         })
     }])

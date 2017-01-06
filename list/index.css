@@ -27,3 +27,8 @@ nav li a{
     line-height: 0.88rem;
 
 }
+.show_img{
+    width:100%;
+    heigh:100%;
+    padding: 0.4rem;
+}
